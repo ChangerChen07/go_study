@@ -24,6 +24,13 @@ func f3() {
 		i++
 	}
 }
+
+// 永真循环
+func f4() {
+	for {
+		fmt.Println("永远执行")
+	}
+}
 func main() {
 	f3()
 }
