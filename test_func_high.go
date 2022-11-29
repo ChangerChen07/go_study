@@ -1,4 +1,4 @@
-package main
+/* package main
 
 import (
 	"fmt"
@@ -42,3 +42,4 @@ func main() {
 	r = cal("+")(100, 1000)
 	fmt.Printf("r: %v\n", r)
 }
+*/
