@@ -1,4 +1,4 @@
-// 闭包=函数+引用环境
+/* // 闭包=函数+引用环境
 package main
 
 import (
@@ -37,23 +37,24 @@ func calc(base int) (func(int) int, func(int) int) {
 
 func main() {
 	// f函数周期内，x的值不会变
-	// f := add()
-	// r := f(10)
-	// fmt.Printf("r: %v\n", r)
-	// r = f(20)
-	// fmt.Printf("r: %v\n", r)
-	// fmt.Println("----------------")
-	// f1 := add()
-	// r1 := f1(100)
-	// fmt.Printf("r1: %v\n", r1)
-	// r = f(30)
-	// fmt.Printf("r: %v\n", r)
+	f := add()
+	r := f(10)
+	fmt.Printf("r: %v\n", r)
+	r = f(20)
+	fmt.Printf("r: %v\n", r)
+	fmt.Println("----------------")
+	f1 := add()
+	r1 := f1(100)
+	fmt.Printf("r1: %v\n", r1)
+	r = f(30)
+	fmt.Printf("r: %v\n", r)
 
-	// jpgFunc := makeSuffixFunc(".jpg")
-	// txtFunc := makeSuffixFunc(".txt")
-	// fmt.Println(jpgFunc("test"))
-	// fmt.Println(txtFunc("test"))
+	jpgFunc := makeSuffixFunc(".jpg")
+	txtFunc := makeSuffixFunc(".txt")
+	fmt.Println(jpgFunc("test"))
+	fmt.Println(txtFunc("test"))
 	f1, f2 := calc(100)
 	fmt.Println(f1(1), f2(10))
 	fmt.Println(f1(2), f2(20))
 }
+*/
