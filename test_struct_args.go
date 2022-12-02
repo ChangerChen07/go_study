@@ -1,4 +1,4 @@
-package main
+/* package main
 
 import "fmt"
 
@@ -35,3 +35,4 @@ func main() {
 	showNewPerson(&tom)
 	fmt.Printf("tom: %v\n", tom)
 }
+*/
