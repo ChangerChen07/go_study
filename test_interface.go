@@ -1,4 +1,4 @@
-package main
+/* package main
 
 import "fmt"
 
@@ -40,3 +40,4 @@ func main() {
 	m_usb.read()
 	m_usb.write()
 }
+*/
