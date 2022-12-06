@@ -1,4 +1,4 @@
-package main
+/* package main
 
 import "fmt"
 
@@ -36,7 +36,9 @@ func main() {
 	pc_usb = Computer{name: "联想"}
 	pc_usb.read()
 	pc_usb.write()
+	fmt.Printf("pc_usb: %T\n", pc_usb)
 	var m_usb USB = Mobile{model: "5G mobile"}
 	m_usb.read()
 	m_usb.write()
 }
+*/
