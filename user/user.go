@@ -5,7 +5,8 @@ type Work struct {
 	count int
 }
 
+import "fmt"
+
 func Hello() string {
 	return "Hello"
 }
-*/
