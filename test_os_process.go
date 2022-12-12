@@ -1,4 +1,4 @@
-package main
+/* package main
 
 import (
 	"fmt"
@@ -43,3 +43,4 @@ func main() {
 	ps, _ := p2.Wait()
 	fmt.Printf("ps: %v\n", ps)
 }
+*/

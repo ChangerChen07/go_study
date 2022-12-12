@@ -1,4 +1,4 @@
-package main
+/* package main
 
 import (
 	"fmt"
@@ -55,3 +55,4 @@ func getPWD() {
 func main() {
 	getPWD()
 }
+*/
