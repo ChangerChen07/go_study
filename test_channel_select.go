@@ -1,4 +1,4 @@
-package main
+/* package main
 
 import (
 	"fmt"
@@ -11,8 +11,8 @@ func main() {
 	go func() {
 		chanInt <- 100
 		chanStr <- "Hello"
-		close(chanInt)
-		close(chanStr)
+		// close(chanInt)
+		// close(chanStr)
 	}()
 
 	for {
@@ -27,3 +27,4 @@ func main() {
 	}
 	time.Sleep(time.Second)
 }
+*/
